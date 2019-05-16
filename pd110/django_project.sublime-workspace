@@ -7,6 +7,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/pd110/settings.py",
+			"settings":
+			{
+				"buffer_size": 3103,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -41,7 +50,8 @@
 	"expanded_folders":
 	[
 		"/C/Users/diego/Desktop/django/pd110",
-		"/C/Users/diego/Desktop/django/pd110/src"
+		"/C/Users/diego/Desktop/django/pd110/src",
+		"/C/Users/diego/Desktop/django/pd110/src/pd110"
 	],
 	"file_history":
 	[
@@ -79,8 +89,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/pd110/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1080,
+								1080
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 486.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
