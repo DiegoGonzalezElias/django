@@ -3,6 +3,15 @@
 
 {% block head_title %}Bienvenidos | {{ block.super }}{% endblock %}
 
+<style>
+{% block style %}
+.jumbotron{
+	background-color: #b53333 !important;
+	color: white !important;
+}
+{% endblock %}
+</style>
+
 {% block jumbotron %}
 <div class="jumbotron">
 
@@ -25,6 +34,7 @@
 <br/>
 
 {% block content %}
+<div class="container">
 <div class="row">
 	<div class="col-sm-3 col-xs-12 pull-right">
 		<p class="lead text-align-center">{{ titulo }}</p>
@@ -41,6 +51,7 @@
 </div>
 <div class="col-sm-3">
 	<p class="lead text-align-center">Código abierto, siempre.</p>
+</div>
 </div>
 </div>
 
