@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load crispy_forms_tags %}
+{% load static %}
 
 {% block head_title %}Bienvenidos | {{ block.super }}{% endblock %}
 
@@ -8,6 +9,9 @@
 .jumbotron{
 	background-color: #b53333 !important;
 	color: white !important;
+}
+.fa-5x{
+	font-size: 6em !important;
 }
 {% endblock %}
 </style>
@@ -44,13 +48,13 @@
 		</form>
 	</div>
 <div class="col-sm-3">
-	<p class="lead text-align-center">Creado con Django &amp; Bootstrap</p>
+	<p class="lead text-align-center">Creado con Django &amp; Bootstrap.<br/><br/><i class="fas fa-bullhorn fa-5x"></i></p>
 </div>
 <div class="col-sm-3">
-	<p class="lead text-align-center">Y con mucho amor, claro.</p>
+	<p class="lead text-align-center">Y con mucho amor, claro.</p><img style="width: 200px;" src="{% static 'img/obama_tacos.jpg' %}">
 </div>
 <div class="col-sm-3">
-	<p class="lead text-align-center">Código abierto, siempre.</p>
+	<p class="lead text-align-center">Código abierto, siempre.<br/><br/><i class="fas fa-dolly fa-spin fa-5x"></i></p>
 </div>
 </div>
 </div>
