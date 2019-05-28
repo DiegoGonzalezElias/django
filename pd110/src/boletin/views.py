@@ -9,7 +9,7 @@ from .models import Registrado
 def inicio(request):
 	titulo = "Bienvenidos"
 	if request.user.is_authenticated():
-		titulo = "Bienvenido %s" %(request.user)
+		titulo = "Bienvenid@ %s" %(request.user)
 	form = RegModelForm(request.POST or None)
 
 	context = {
@@ -42,6 +42,12 @@ def inicio(request):
 		#abc2 = form_data.get("nombre")
 		#obj = Registrado.objects.create(email=abc, nombre=abc2)
 	
+
+	if request.user.is_authenticated() and request.user.is_staff:
+		context = {
+			"queryset": ['abc','123'],
+		}
+
 	return render(request, "inicio.html",context)
 
 def contact(request):
