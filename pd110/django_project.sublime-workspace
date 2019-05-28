@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"col",
+				"col-sm-3"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
 				"ba",
 				"background-color\tproperty"
 			],
@@ -76,58 +88,10 @@
 	"buffers":
 	[
 		{
-			"file": "src/pd110/settings.py",
-			"settings":
-			{
-				"buffer_size": 3627,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "<!DOCTYPE html>\n{% load static %}\n\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->\n    <meta name=\"description\" content=\"\">\n    <meta name=\"author\" content=\"\">\n    <link rel=\"icon\" href=\"../../favicon.ico\">\n    <link rel=\"canonical\" href=\"https://getbootstrap.com/docs/3.3/examples/navbar-static-top/\">\n\n    <title>{% block head_title %}PD 110{% endblock %}</title>\n\n{% include \"head_css.html\" %}\n\n  </head>\n\n  <body>\n\n{% include \"navbar.html\" %}\n    \n\n\n    <div class=\"container\">\n{% block jumbotron %}\n<!-- Main component for a primary marketing message or call to action -->\n      <div class=\"jumbotron\">\n{% block jumbotron_content %}        \n\n{% endblock %}\n      </div>\n{% endblock %}\n\n{% block content %}\n{% endblock %}\n\n    </div> <!-- /container -->\n\n{% include \"javascript.html\" %}\n    \n  </body>\n</html>",
-			"file": "src/templates/base.html",
-			"file_size": 1187,
-			"file_write_time": 132031879202902300,
-			"settings":
-			{
-				"buffer_size": 1067,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/javascript.html",
-			"settings":
-			{
-				"buffer_size": 592,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/inicio.html",
-			"settings":
-			{
-				"buffer_size": 921,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/head_css.html",
-			"settings":
-			{
-				"buffer_size": 953,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "src/templates/navbar.html",
 			"settings":
 			{
-				"buffer_size": 1891,
+				"buffer_size": 1898,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -136,7 +100,60 @@
 			"file": "src/boletin/views.py",
 			"settings":
 			{
-				"buffer_size": 1735,
+				"buffer_size": 1782,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pd110/views.py",
+			"settings":
+			{
+				"buffer_size": 125,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/forms.html",
+			"settings":
+			{
+				"buffer_size": 394,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 971,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/templates/inicio.html",
+			"settings":
+			{
+				"buffer_size": 1291,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/static_pro/static/css/custom.css",
+			"settings":
+			{
+				"buffer_size": 43,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/pd110/urls.py",
+			"settings":
+			{
+				"buffer_size": 1237,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -188,7 +205,14 @@
 	],
 	"file_history":
 	[
+		"/C/Users/diego/Desktop/django/pd110/src/templates/about.html",
+		"/C/Users/diego/Desktop/django/pd110/src/templates/head_css.html",
+		"/C/Users/diego/Desktop/django/pd110/src/templates/inicio.html",
+		"/C/Users/diego/Desktop/django/pd110/src/templates/javascript.html",
+		"/C/Users/diego/Desktop/django/pd110/src/templates/base.html",
+		"/C/Users/diego/Desktop/django/pd110/src/static_pro/static/css/custom.css",
 		"/C/Users/diego/Desktop/django/pd110/src/pd110/settings.py",
+		"/C/Users/diego/Desktop/django/pd110/src/pd110/view.py",
 		"/C/Users/diego/Desktop/django/pd110/src/boletin/forms.py",
 		"/C/Users/diego/Desktop/django/pd110/src/boletin/models.py",
 		"/C/Users/diego/Desktop/django/pd110/src/boletin/admin.py",
@@ -196,10 +220,7 @@
 		"/C/Users/diego/Desktop/django/pd110/src/db.sqlite3",
 		"/C/Users/diego/Desktop/django/pd110/src/templates/forms.html",
 		"/C/Users/diego/Desktop/django/pd110/src/pd110/urls.py",
-		"/C/Users/diego/Desktop/django/pd110/src/templates/inicio.html",
 		"/C/Users/diego/Desktop/django/pd110/src/templates/navbar.html",
-		"/C/Users/diego/Desktop/django/pd110/src/templates/head_css.html",
-		"/C/Users/diego/Desktop/django/pd110/src/templates/base.html",
 		"/C/Users/diego/Desktop/django/pd110/src/templates/form.html"
 	],
 	"find":
@@ -240,49 +261,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "src/pd110/settings.py",
+					"file": "src/templates/navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3627,
+						"buffer_size": 1898,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1723,
-								1723
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 808.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1067,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								928,
-								928
+								820,
+								820
 							]
 						],
 						"settings":
@@ -292,55 +283,85 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 321.0,
+						"translation.y": 90.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "src/templates/javascript.html",
+					"buffer": 1,
+					"file": "src/boletin/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 592,
+						"buffer_size": 1782,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								1072,
+								1072
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/pd110/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								124,
+								124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "src/templates/inicio.html",
+					"file": "src/templates/forms.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 921,
+						"buffer_size": 394,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								565,
-								565
+								353,
+								353
 							]
 						],
 						"settings":
@@ -356,49 +377,19 @@
 				},
 				{
 					"buffer": 4,
-					"file": "src/templates/head_css.html",
+					"file": "src/templates/base.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 953,
+						"buffer_size": 971,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								14,
-								14
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/templates/navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1891,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								562,
-								562
+								832,
+								832
 							]
 						],
 						"settings":
@@ -408,39 +399,96 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 54.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "src/boletin/views.py",
+					"buffer": 5,
+					"file": "src/templates/inicio.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1735,
+						"buffer_size": 1291,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1007,
-								1007
+								143,
+								143
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 432.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/static_pro/static/css/custom.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/pd110/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1054,
+								1054
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 216.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
